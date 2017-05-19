@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full-width{
+  /*width: 100%;*/
+  min-height: 100vh;
+  background-image: url('../../assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+.grey-container{
+  background-color: #eeeeee;
+}
+.section{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+#section-about h6{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
