@@ -3,22 +3,26 @@
  padding-top: 200px;
 }
 
-.names{
+.row-form{
   padding-top: 30px;
 }
 
-.contact-hr{
-  width: 40px;
+.email{
+  margin-top:65px;
+}
+
+.message{
+  margin-top:40px;
 }
 
 .contact-data{
-  margin-top: 30px;
+  margin-top: 18px;
+  line-height:33px;
 }
 
+.adress, .phone{
+  margin-bottom: 18px;
+}
 .button{
   padding-top:0;
-}
-
-.section-contact{
-  height: 685px;
 }
