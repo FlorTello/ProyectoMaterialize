@@ -1,5 +1,6 @@
+
 .contact{
- padding: 200px;
+ padding-top: 200px;
 }
 
 .names{
@@ -8,4 +9,16 @@
 
 .contact-hr{
   width: 40px;
+}
+
+.contact-data{
+  margin-top: 30px;
+}
+
+.button{
+  padding-top:0;
+}
+
+.section-contact{
+  height: 685px;
 }
