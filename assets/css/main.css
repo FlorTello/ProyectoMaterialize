@@ -1,4 +1,3 @@
-
 .contact{
  padding-top: 200px;
 }
@@ -25,4 +24,50 @@
 }
 .button{
   padding-top:0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full-width{
+  min-height: 100vh;
+  background-image: url('../../assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+.grey-container{
+  background-color: #eeeeee;
+}
+.section{
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+#section-about h6{
+  margin-bottom: 40px;
+}
+.divider{
+  width: 60px;
+  margin: 0 auto 3rem auto;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+/*Portfolio*/
+.row-photos{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.materialboxed{
+  width: 100%;
+}
+/*finPortfolio*/
+
+footer{
+  display: flex;
+  height: 70px;
+  padding-top: 20px;
 }

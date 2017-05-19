@@ -6,20 +6,134 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+
   <link type="text/css" rel="stylesheet" href="assets/css/main.css">
-  <link rel="icon" href="assets/images/icon.png">
+  <link rel="icon" href="assets/images/perfil.png">
   <title>Portafolio</title>
 </head>
 <body>
   <header>
+    <div class="full-width">
+      <div class="row center-align">
+        <div class="col s12 m12 l12">
+          <h1 class="white-text text-uppercase"><strong>Monica Brodovsky</strong></h1>
+          <button class="grey lighten-4 btn black-text text-uppercase" type="button" name="button">WEB AND MOBILE DEVELOPERS</button>
+        </div>
+      </div>
+    </div>
   </header>
-  <section id = "section-about">
-
+  <section id="section-about" class="grey-container section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l12 center-align">
+          <h4 class="text-uppercase" >ABOUT ME</h4>
+          <p class="text-uppercase" >LET ME INTRODUCE MY SELF</p>
+          <div class="divider grey lighten-7"></div>
+        </div>
+        <div class="col s12 m12 l4 xl14">
+          <h6 class="center-align">
+            STORY
+          </h6>
+          <p class="">
+            Monica Lynn Brodovsky is a graphic designer, illustrator,
+            typographer, photographer, photo retoucher, screen printer,
+            chocolate enthusiast, and mother to the most beautiful daughter
+            in the world (slightly biased).
+          </p>
+          <p>
+            When she’s not busy sharing cheerios
+            from the floor with her toddler,she enjoys obsessing over fine details
+            and trying to find the perfect balance between work life and mom life.
+          </p>
+        </div>
+        <div class="col s12 m12 l4 xl14">
+          <h6 class="center-align text-uppercase">
+            PROFILE
+          </h6>
+          <div class="card blue-grey darken-1 center-align">
+            <div class="card-content white-text">
+              <img class="responsive-img" src="assets/images/perfil.png" alt="" class="card-title" min-height = "70">
+              <p class="justify">Monica earned her degree in Graphic and Interactive Design from Temple
+                University the Tyler School of Art in 2011..</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4 xl14">
+          <h6 class="center-align text-uppercase">
+            CURRENT JOBS
+          </h6>
+          <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header">Designer</div>
+             <div class="collapsible-body"><span class="center-align">A designer is a person who designs.
+                More formally, a designer is an agent that "specifies the structural
+                properties of a design object".In practice, anyone who creates
+                tangible or intangible objects, products, processes, laws, games,
+                graphics, services, and experiences is referred to as a designer.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header">Developer</div>
+             <div class="collapsible-body"><span>A person who invests in and develops the urban or
+                suburban potentialities of real estate, especially by subdividing the land into home
+                sites and then building houses and selling them..</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header">Video Editor</div>
+             <div class="collapsible-body"><span>Video editing is the process of manipulating and rearranging
+                video shots to create a new work. Editing is usually considered to be one part of the post
+                production process — other post-production tasks include titling, colour correction, sound mixing, etc..</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header">Support Asst.</div>
+             <div class="collapsible-body"><span>In the past Learning Support Assistants (LSAs) and Teaching
+               Assistants (TAs) have both provided support to teachers and pupils in the classroom.
+               They have performed the same role working with all students, not only those with SEN but
+               students in primary and secondary, mainstream, special schools and schools with SEN units.</span></div>
+           </li>
+         </ul>
+        </div>
+      </div>
+    </div>
   </section>
-  <section id = "section-portafolio">
-
+  <!--Portafolio Modal-->
+  <section id = "section-portafolio" class="section">
+    <div class="col s12 center-align">
+      <h4 class="text-uppercase">Portfolio</h4>
+      <p class="text-uppercase">My latest Projects</p>
+      <div class="divider grey lighten-7"></div>
+      <br>
+      <div class="container row" >
+          <div class="row col s12 row-photos">
+              <div class="col s4 no-padding ">
+                  <img class="materialboxed" src="assets/images/desk-book.jpg" alt="desk book">
+              </div>
+              <div class="col s4 no-padding ">
+                <img class="materialboxed" src="assets/images/consola.jpg" alt="consola">
+              </div>
+              <div class="col s4 no-padding">
+                <img class="materialboxed" src="assets/images/code.jpg" alt="code">
+              </div>
+            </div>
+            <div class="row col s12 row-photos">
+              <div class="col s4 no-padding ">
+                  <img class="materialboxed" src="assets/images/girl-code.jpg" alt="girl code">
+              </div>
+              <div class="col s4 no-padding">
+                <img  class="materialboxed" src="assets/images/desk-code.jpg" alt="desk code">
+              </div>
+              <div class="col s4 no-padding">
+                <img class="materialboxed" src="assets/images/img-1.jpg" alt="books">
+              </div>
+          </div>
+      </div>
+    </div>
   </section>
-  <section id = "section grey-container">
+  <section  class="section grey-container">
    <div class="container">
     <div class="row">
         <div class="form-title col s12 col l12">
@@ -30,16 +144,16 @@
           <div class="row-form">
             <div class="input-field col s6">
               <label for="first_name">First Name</label>
-              <input id="first_name" type="text" class="validate">
+              <input id="first_name" type="text" class="validate" required pattern="^([A-Z]{1}[a-z]+[\s]*)+$">
             </div>
             <div class="name input-field col s6">
               <label for="last_name">Last Name</label>
-              <input id="last_name" type="text" class="validate">
+              <input id="last_name" type="text" class="validate" required pattern="^([A-Z]{1}[a-z]+[\s]*)+$">
             </div>
           </div>
           <div class="row">
             <div class="email input-field col s12">
-              <input id="email" type="email" class="validate">
+              <input id="email" type="email" class="validate" required pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
               <label for="email">Email</label>
             </div>
           </div>
@@ -70,10 +184,10 @@
     </div>
   </div>
  </section>
- <footer class="card-panel blue-grey">
+ <footer class="blue-grey  valign-wrapper">
    <div class="container">
      <div class="row">
-       <h6 class="col s6 col l6 white-text ">© 2014 Copyrigth Text</h6>
+       <h6 class="col s6 col l6 white-text">© 2014 Copyrigth Text</h6>
        <h6 class="col s6 col l6 right-align white-text">minombre@hotmail.com</h6>
      </div>
    </div>
