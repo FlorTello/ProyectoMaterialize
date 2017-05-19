@@ -1,11 +1,9 @@
 .contact{
  padding-top: 200px;
 }
-
 .row-form{
   padding-top: 30px;
 }
-
 .email{
   margin-top:65px;
 }
@@ -70,4 +68,10 @@ footer{
   display: flex;
   height: 70px;
   padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer h6{
+    font-size: 0.85em
+  }
 }
